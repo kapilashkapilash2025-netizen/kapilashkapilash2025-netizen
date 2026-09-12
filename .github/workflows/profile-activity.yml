@@ -1,0 +1,30 @@
+name: Refresh profile activity
+on:
+  schedule:
+    - cron: '23 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate contribution cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_activity.py
+      - name: Save refreshed cards
+        run: |
+          git add assets/github-streak.svg assets/github-activity.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Refresh profile contribution cards'
+          git push
