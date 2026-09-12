@@ -15,8 +15,8 @@
   <strong>AI Developer | Robotics Builder | Software Developer | Researcher | Problem Solver</strong>
 </p>
 <p align="center">
-  <strong>Based in Sri Lanka</strong><br />
-  <img src="https://komarev.com/ghpvc/?username=kapilashkapilash2025-netizen&amp;label=Profile+views&amp;color=0284c7&amp;style=flat" alt="Profile view counter" />
+  <a href="https://github.com/kapilashkapilash2025-netizen"><img src="assets/profile-identity.svg" width="540" alt="@kapilashkapilash2025-netizen — Kabilash (Kapi), Sri Lanka, AXSON PRIME" /></a><br /><br />
+  <img src="https://komarev.com/ghpvc/?username=kapilashkapilash2025-netizen&amp;label=PROFILE+VIEWS&amp;color=8b5cf6&amp;style=for-the-badge" alt="Profile view counter" />
 </p>
 <p align="center">
   <a href="#autovrl-nexus">Featured project</a> ·
