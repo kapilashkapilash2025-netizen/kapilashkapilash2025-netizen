@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/the-one-kapilash.png" width="900" alt="The One Kapilash — metallic silver and electric blue crowned emblem." />
+</p>
+
+<p align="center">
   <img src="assets/axson-prime-banner.svg" width="1200" alt="Kabilash (Kapi) — Founder &amp; CEO, AXSON PRIME. Sri Lanka. AI, robotics and cloud." />
 </p>
 
